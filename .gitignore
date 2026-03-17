@@ -1,0 +1,5 @@
+.env 
+.venv
+ev_battery_10M.csv
+ev_battery_model.pkl
+training_report.txt

@@ -1,0 +1,8 @@
+# EV Battery Decision Tree — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+numpy>=1.26.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+flask>=3.0.0
+gunicorn>=21.2.0          # production WSGI server (Linux/macOS)

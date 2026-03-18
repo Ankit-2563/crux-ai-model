@@ -1,23 +1,3 @@
-"""
-EV Battery Decision Tree — Training Script
-===========================================
-Trains a production-grade Decision Tree classifier on the 10M-row
-EV battery dataset, saves the model as a .pkl file, and emits a
-full evaluation report.
-
-Usage:
-    python train_model.py                        # uses default path
-    python train_model.py --data ev_battery.csv  # custom path
-    python train_model.py --rows 2000000         # subsample for speed
-
-Output:
-    ev_battery_model.pkl   — serialised model + metadata bundle
-    training_report.txt    — classification report + feature importances
-
-Author : <your-name>
-Version: 1.1.0
-"""
-
 import argparse
 import json
 import logging
